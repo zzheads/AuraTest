@@ -15,6 +15,7 @@
 		A628EBF7236A31F700E428DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A628EBF5236A31F700E428DC /* LaunchScreen.storyboard */; };
 		A628EC02236A31F700E428DC /* IntTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A628EC01236A31F700E428DC /* IntTestTests.swift */; };
 		A628EC0D236A31F700E428DC /* IntTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A628EC0C236A31F700E428DC /* IntTestUITests.swift */; };
+		A628EC1B236A323600E428DC /* Incrementor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A628EC1A236A323600E428DC /* Incrementor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A628EC08236A31F700E428DC /* IntTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A628EC0C236A31F700E428DC /* IntTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntTestUITests.swift; sourceTree = "<group>"; };
 		A628EC0E236A31F700E428DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A628EC1A236A323600E428DC /* Incrementor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Incrementor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				A628EBF3236A31F700E428DC /* Assets.xcassets */,
 				A628EBF5236A31F700E428DC /* LaunchScreen.storyboard */,
 				A628EBF8236A31F700E428DC /* Info.plist */,
+				A628EC1A236A323600E428DC /* Incrementor.swift */,
 			);
 			path = IntTest;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				A628EBEF236A31F600E428DC /* ViewController.swift in Sources */,
 				A628EBEB236A31F600E428DC /* AppDelegate.swift in Sources */,
+				A628EC1B236A323600E428DC /* Incrementor.swift in Sources */,
 				A628EBED236A31F600E428DC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
